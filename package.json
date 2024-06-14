@@ -1,0 +1,19 @@
+{
+  "name": "buntorrent",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch ./src/index.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bencode": "^2.0.4",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "bencode": "^4.0.0"
+  }
+}
